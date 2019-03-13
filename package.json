@@ -10,7 +10,8 @@
   "license": "MIT",
   "scripts": {
     "start-dev": "nodemon app.js",
-    "start-prod": "node app.js"
+    "start-prod": "node app.js",
+    "test": "mocha --exit"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.5.0",
