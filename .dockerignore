@@ -1,3 +1,7 @@
 node_modules
-package-lock.json
+.dockerignore
+Dockerfile
 npm-debug.log
+.git
+.hg
+.svn
