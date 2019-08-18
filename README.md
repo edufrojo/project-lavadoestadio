@@ -19,8 +19,7 @@ git clone https://github.com/edufrojo/project-lavadoestadio.git
 Desplegar con "docker-compose":
 
 ```sh
-npm start
+npm run start-prod
 ```
 
 Acceder a través del navegador a `localhost:8080`
-
