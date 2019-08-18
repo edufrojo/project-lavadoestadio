@@ -12,4 +12,4 @@ EXPOSE 8080
 
 USER node
 
-CMD [ "npm", "run start-prod" ]
+CMD [ "npm", "run", "start-prod" ]
