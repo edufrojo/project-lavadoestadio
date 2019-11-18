@@ -76,3 +76,11 @@ body {
 .mdl-data-table {
   table-layout: fixed;
 }
+
+.mdl-data-table th {
+  font-size: 18px;
+}
+
+.mdl-data-table td {
+  font-size: 15px;
+}
