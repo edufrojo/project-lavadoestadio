@@ -59,7 +59,5 @@ $(document).ready(function() {
     theme: 'light-bottom',
   };
 
-  $('[data-toggle="tooltip"]').tooltip();
-
   UpdateCopyYear();
 });
