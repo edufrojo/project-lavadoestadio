@@ -13,7 +13,7 @@ const mail = require('nodemailer').mail;
 
 // Creamos servidor y configuramos el puerto
 const app = express();
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 8081);
 
 // Habilitamos log.
 app.use(logger('combined'));

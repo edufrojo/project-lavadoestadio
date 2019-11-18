@@ -1,17 +1,10 @@
-function UpdateCopyYear() {
-  var d = new Date();
-  document.getElementById('copy-year').innerHTML = d.getFullYear();
-}
-
 $(document).ready(function() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
       .register('service-worker.js')
       .then(function(reg) {
-        console.log('Service Worker registered successfully');
       })
       .catch(function(err) {
-        console.log('Service worker registration failed');
       });
   }
 
@@ -58,6 +51,4 @@ $(document).ready(function() {
     link: 'https://www.google.com/about/company/user-consent-policy.html',
     theme: 'light-bottom',
   };
-
-  UpdateCopyYear();
 });
