@@ -87,7 +87,7 @@ app.post('/enviar-mensaje', function(req, res) {
     mail({
       from: req.body.txtMail,
       to: 'lavadoestadio@gmail.com',
-      subject: 'Mensaje de ' + req.body.txtNombrels + ' desde lavadoestadio.es',
+      subject: 'Mensaje de ' + req.body.txtNombre + ' desde lavadoestadio.es',
       html:
         '<p><h4>Nombre:</h4> ' +
         req.body.txtNombre +
